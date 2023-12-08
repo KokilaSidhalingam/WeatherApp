@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-image: url("https://www.natgeokids.com/wp-content/uploads/2015/01/Weather-facts-3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div{
+    text-align: center;
+    margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+    background-color: rgb(68, 63, 63);
+    letter-spacing: 5px;
+    padding: 10px;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+    margin-top: 5%;
+    width: 30%;
+    padding: 10px;
+    border: 5px outset black ;
+    font-size: medium;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+button{
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    font-size: large;
+    font-weight: bold;
+    border: 1px dashed white;
+    letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2,p{
+    letter-spacing: 2px;
+    padding: 8px;
+    font-weight: bold;
 }
+
